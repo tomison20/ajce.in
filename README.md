@@ -113,5 +113,4 @@ ajce-web-revamp/
 We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and suggest improvements.
 
 ---
-
-Designed with ❤️ for **Amal Jyothi College of Engineering**.
+For **Amal Jyothi College of Engineering**.
