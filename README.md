@@ -112,4 +112,4 @@ We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for 
 
 ---
 
-Designed with ❤️ for **Amal Jyothi College of Engineering**.
+For **Amal Jyothi College of Engineering**.
