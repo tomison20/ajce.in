@@ -1,6 +1,4 @@
-# AJCE Modern Web Experience 🚀
-
-![AJCE Revamp Banner](https://via.placeholder.com/1200x400?text=AJCE+Revamp+Project)
+# AJCE Modern Web Experience 
 
 > **A Youth-Centric, Modern Web Experience for Amal Jyothi College of Engineering**
 
