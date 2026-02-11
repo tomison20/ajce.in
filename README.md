@@ -1,115 +1,36 @@
-# AJCE Modern Web Experience 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-> **A Youth-Centric, Modern Web Experience for Amal Jyothi College of Engineering**
+## Getting Started
 
-Welcome to the repository for the **AJCE Website Revamp**! This project aims to transform the digital presence of [Amal Jyothi College of Engineering](https://www.ajce.in/) into a vibrant, modern, and engaging platform that resonates with students, faculty, and visitors alike.
+First, run the development server:
 
-## 🌟 Project Vision
-
-Our mission is to build a sleek, high-performance web application that goes beyond traditional institutional websites. We are focusing on:
-
-*   **Youth-Centric Design:** Vibrant colors, glassmorphism, smooth animations, and intuitive navigation.
-*   **Modern Tech Stack:** Leveraging the power of the MERN stack for speed, scalability, and flexibility.
-*   **User Experience:** Prioritizing seamless interaction and accessibility across all devices.
-
-## 🛠️ Technology Stack
-
-This project is built using the **MERN** stack:
-
-*   **Frontend:**
-    *   [React.js](https://reactjs.org/) (bootstrapped with [Vite](https://vitejs.dev/)) - For a lightning-fast UI.
-    *   [Tailwind CSS](https://tailwindcss.com/) - For rapid, utility-first styling.
-    *   [Framer Motion](https://www.framer.com/motion/) - For production-ready animations.
-*   **Backend:**
-    *   [Node.js](https://nodejs.org/) & [Express.js](https://expressjs.com/) - Robust server-side logic.
-*   **Database:**
-    *   [MongoDB](https://www.mongodb.com/) - Flexible NoSQL database.
-
-## ✨ Key Features
-
-This revamp includes several dedicated modules designed to showcase the best of AJCE:
-
-1.  **🚀 Modern Home Page**: A visually stunning landing page with dynamic hero sections and highlights.
-2.  **📚 Dedicated Course Pages**: Attractive, detailed layouts for all engineering courses.
-3.  **🎓 College Portfolio**: An immersive gallery and achievement showcase.
-4.  **📞 Interactive Contact Section**: Integrated maps and easy-to-use inquiry forms.
-5.  **Department & Faculty Modules**:
-    *   Detailed profiles for **HODs** and **Teachers**.
-    *   Comprehensive **Department** pages with curriculum info.
-
-## 🚀 Getting Started
-
-Follow these instructions to get a local copy of the project up and running.
-
-### Prerequisites
-
-Ensure you have the following installed:
-*   [Node.js](https://nodejs.org/) (v14 or higher)
-*   [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-*   [MongoDB](https://www.mongodb.com/) (Local or Atlas)
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/ajce-web-revamp.git
-    cd ajce-web-revamp
-    ```
-
-2.  **Install dependencies (Root):**
-    ```bash
-    npm install
-    ```
-
-3.  **Setup Client:**
-    ```bash
-    cd client
-    npm install
-    ```
-
-4.  **Setup Server:**
-    ```bash
-    cd ../server
-    npm install
-    ```
-
-5.  **Environment Variables:**
-    Create a `.env` file in the `server` directory and add your MongoDB connection string and other secrets.
-
-    ```env
-    MONGO_URI=your_mongodb_connection_string
-    PORT=5000
-    ```
-
-6.  **Run the Application:**
-    You can run both client and server concurrently (if configured) or in separate terminals.
-
-    *   **Client:** `npm run dev` (in `client/` directory)
-    *   **Server:** `npm start` (in `server/` directory)
-
-## 📂 Project Structure
-
-```
-ajce-web-revamp/
-├── client/          # React frontend application
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       └── ...
-├── server/          # Express backend application
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── ...
-└── README.md        # Project documentation
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## 🤝 Contributing
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and suggest improvements.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-For **Amal Jyothi College of Engineering**.
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
