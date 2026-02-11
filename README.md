@@ -1,7 +1,4 @@
 # AJCE Modern Web Experience 🚀
-
-![AJCE Revamp Banner](https://via.placeholder.com/1200x400?text=AJCE+Revamp+Project)
-
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
