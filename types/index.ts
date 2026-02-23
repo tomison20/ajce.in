@@ -27,6 +27,8 @@ export interface Department {
     image: string;
     studentCount: number;
     established: number;
+    placementStatus: string;
+    placementRecord: PlacementStat[];
 }
 
 export interface Program {

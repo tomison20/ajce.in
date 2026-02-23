@@ -45,6 +45,11 @@ export const departments: Department[] = [
         image: "/departments/cse.jpg",
         studentCount: 480,
         established: 2001,
+        placementStatus: "Top Tier",
+        placementRecord: [
+            { year: "2023", studentsPlaced: 450, totalStudents: 480, highestPackage: "42 LPA", averagePackage: "8 LPA", companiesVisited: 120 },
+            { year: "2022", studentsPlaced: 420, totalStudents: 450, highestPackage: "35 LPA", averagePackage: "7.5 LPA", companiesVisited: 105 }
+        ]
     },
     {
         id: "ece",
@@ -88,6 +93,11 @@ export const departments: Department[] = [
         image: "/departments/ece.jpg",
         studentCount: 360,
         established: 2001,
+        placementStatus: "Excellent",
+        placementRecord: [
+            { year: "2023", studentsPlaced: 320, totalStudents: 360, highestPackage: "24 LPA", averagePackage: "6.5 LPA", companiesVisited: 85 },
+            { year: "2022", studentsPlaced: 300, totalStudents: 340, highestPackage: "20 LPA", averagePackage: "6 LPA", companiesVisited: 75 }
+        ]
     },
     {
         id: "eee",
@@ -130,6 +140,11 @@ export const departments: Department[] = [
         image: "/departments/eee.jpg",
         studentCount: 240,
         established: 2001,
+        placementStatus: "Very Good",
+        placementRecord: [
+            { year: "2023", studentsPlaced: 200, totalStudents: 240, highestPackage: "18 LPA", averagePackage: "5.5 LPA", companiesVisited: 60 },
+            { year: "2022", studentsPlaced: 190, totalStudents: 230, highestPackage: "15 LPA", averagePackage: "5 LPA", companiesVisited: 55 }
+        ]
     },
     {
         id: "me",
@@ -173,6 +188,11 @@ export const departments: Department[] = [
         image: "/departments/me.jpg",
         studentCount: 300,
         established: 2001,
+        placementStatus: "Very Good",
+        placementRecord: [
+            { year: "2023", studentsPlaced: 250, totalStudents: 300, highestPackage: "15 LPA", averagePackage: "5 LPA", companiesVisited: 50 },
+            { year: "2022", studentsPlaced: 240, totalStudents: 280, highestPackage: "12 LPA", averagePackage: "4.5 LPA", companiesVisited: 45 }
+        ]
     },
     {
         id: "ce",
@@ -215,6 +235,11 @@ export const departments: Department[] = [
         image: "/departments/ce.jpg",
         studentCount: 240,
         established: 2001,
+        placementStatus: "Good",
+        placementRecord: [
+            { year: "2023", studentsPlaced: 180, totalStudents: 240, highestPackage: "12 LPA", averagePackage: "4.5 LPA", companiesVisited: 40 },
+            { year: "2022", studentsPlaced: 170, totalStudents: 220, highestPackage: "10 LPA", averagePackage: "4 LPA", companiesVisited: 35 }
+        ]
     },
     {
         id: "aids",
@@ -257,6 +282,11 @@ export const departments: Department[] = [
         image: "/departments/aids.jpg",
         studentCount: 180,
         established: 2021,
+        placementStatus: "Emerging Excellence",
+        placementRecord: [
+            { year: "2023", studentsPlaced: 160, totalStudents: 180, highestPackage: "35 LPA", averagePackage: "9 LPA", companiesVisited: 70 },
+            { year: "2022", studentsPlaced: null as any, totalStudents: null as any, highestPackage: "N/A", averagePackage: "N/A", companiesVisited: 0 }
+        ]
     },
     {
         id: "mca",
@@ -298,6 +328,11 @@ export const departments: Department[] = [
         image: "/departments/mca.jpg",
         studentCount: 120,
         established: 2004,
+        placementStatus: "Excellent",
+        placementRecord: [
+            { year: "2023", studentsPlaced: 110, totalStudents: 120, highestPackage: "22 LPA", averagePackage: "6.5 LPA", companiesVisited: 50 },
+            { year: "2022", studentsPlaced: 105, totalStudents: 115, highestPackage: "18 LPA", averagePackage: "6 LPA", companiesVisited: 45 }
+        ]
     },
     {
         id: "as",
@@ -340,5 +375,7 @@ export const departments: Department[] = [
         image: "/departments/as.jpg",
         studentCount: 0,
         established: 2001,
+        placementStatus: "N/A (Foundational Department)",
+        placementRecord: []
     },
 ];

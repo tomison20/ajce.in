@@ -203,6 +203,16 @@ export default function AdmissionsPage() {
                                     </select>
                                 </div>
                             </div>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label className="block text-sm font-medium text-foreground mb-2">10th Percentage *</label>
+                                    <input type="number" min="0" max="100" step="0.01" placeholder="e.g. 95.5" className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold/50 transition-all" required />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-medium text-foreground mb-2">12th Percentage *</label>
+                                    <input type="number" min="0" max="100" step="0.01" placeholder="e.g. 92.0" className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold/50 transition-all" required />
+                                </div>
+                            </div>
                             <div>
                                 <label className="block text-sm font-medium text-foreground mb-2">Message (Optional)</label>
                                 <textarea rows={4} placeholder="Any specific queries..." className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold/50 transition-all resize-none" />

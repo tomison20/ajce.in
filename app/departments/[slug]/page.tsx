@@ -149,6 +149,41 @@ export default function DepartmentDetailPage({
                     </div>
                 </div>
             </section>
+
+            {/* Placements */}
+            {dept.placementRecord && dept.placementRecord.length > 0 && (
+                <section className="section-padding">
+                    <div className="max-w-7xl mx-auto">
+                        <SectionHeader label="Careers" title="Placement & Records" description={`Status: ${dept.placementStatus}`} />
+                        <div className="overflow-x-auto rounded-2xl border border-border">
+                            <table className="w-full text-left">
+                                <thead>
+                                    <tr className="bg-navy text-white">
+                                        <th className="px-6 py-4 text-sm font-semibold">Year</th>
+                                        <th className="px-6 py-4 text-sm font-semibold">Highest Package</th>
+                                        <th className="px-6 py-4 text-sm font-semibold">Average Package</th>
+                                        <th className="px-6 py-4 text-sm font-semibold">Students Placed</th>
+                                        <th className="px-6 py-4 text-sm font-semibold">Companies Visited</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {dept.placementRecord.map((record, i) => (
+                                        <tr key={record.year} className={`border-t border-border ${i % 2 === 0 ? "bg-card" : "bg-muted/30"}`}>
+                                            <td className="px-6 py-4 text-sm font-medium text-foreground">{record.year}</td>
+                                            <td className="px-6 py-4 text-sm font-semibold text-foreground">{record.highestPackage}</td>
+                                            <td className="px-6 py-4 text-sm text-muted-foreground">{record.averagePackage}</td>
+                                            <td className="px-6 py-4 text-sm text-muted-foreground">
+                                                {record.studentsPlaced ? `${record.studentsPlaced} / ${record.totalStudents}` : 'N/A'}
+                                            </td>
+                                            <td className="px-6 py-4 text-sm text-muted-foreground">{record.companiesVisited}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            )}
         </>
     );
 }
