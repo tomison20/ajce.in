@@ -7,6 +7,32 @@ export const placementStats: PlacementStat[] = [
     { year: "2022", studentsPlaced: 442, totalStudents: 500, highestPackage: "₹12 LPA", averagePackage: "₹4.5 LPA", companiesVisited: 65 },
 ];
 
+export const departmentPlacementStats = [
+    { dept: "CSE", placed: 145, total: 152, avg: "₹6.8 LPA", highest: "₹18 LPA", rate: 95.4 },
+    { dept: "ECE", placed: 92, total: 96, avg: "₹5.2 LPA", highest: "₹14 LPA", rate: 95.8 },
+    { dept: "ME", placed: 88, total: 95, avg: "₹5.1 LPA", highest: "₹13 LPA", rate: 92.6 },
+    { dept: "CE", placed: 75, total: 82, avg: "₹4.8 LPA", highest: "₹12 LPA", rate: 91.5 },
+    { dept: "AI&DS", placed: 78, total: 80, avg: "₹7.2 LPA", highest: "₹16 LPA", rate: 97.5 },
+    { dept: "EEE", placed: 42, total: 43, avg: "₹5.3 LPA", highest: "₹13 LPA", rate: 97.7 },
+];
+
+export const salaryDistribution = [
+    { range: "3-4 LPA", count: 45, percentage: 8.6, color: "from-blue-500 to-blue-600" },
+    { range: "4-5 LPA", count: 87, percentage: 16.7, color: "from-cyan-500 to-cyan-600" },
+    { range: "5-6 LPA", count: 152, percentage: 29.2, color: "from-emerald-500 to-emerald-600" },
+    { range: "6-8 LPA", count: 156, percentage: 30.0, color: "from-green-500 to-green-600" },
+    { range: "8-10 LPA", count: 58, percentage: 11.2, color: "from-teal-500 to-teal-600" },
+    { range: "10+ LPA", count: 22, percentage: 4.2, color: "from-gold to-yellow-500" },
+];
+
+export const recruiterStats = [
+    { category: "IT Services", count: 45, color: "from-blue-500 to-blue-700", icon: "💼" },
+    { category: "Core/Manufacturing", count: 18, color: "from-orange-500 to-orange-700", icon: "🏭" },
+    { category: "Consulting", count: 12, color: "from-purple-500 to-purple-700", icon: "📊" },
+    { category: "Startups", count: 10, color: "from-pink-500 to-pink-700", icon: "🚀" },
+    { category: "Finance/Banking", count: 8, color: "from-green-500 to-green-700", icon: "🏦" },
+];
+
 export const topRecruiters: Recruiter[] = [
     { name: "TCS", logo: "/recruiters/tcs.png", category: "it" },
     { name: "Infosys", logo: "/recruiters/infosys.png", category: "it" },
